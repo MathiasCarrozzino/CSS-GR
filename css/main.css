@@ -19,7 +19,7 @@ body {
 
     .header {
         grid-area: header;
-        background-color: #000000;
+        background-color: rgb(0, 0, 0);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -54,7 +54,13 @@ body {
 
     .main {
         grid-area: main;
-        background-color: rgb(189, 196, 211);
+        background: url(/imagenes/banner2.jpg);
+        background-color: rgb(0, 0, 0);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-top: #104361 0.1rem solid;
+        border-bottom: #104361 0.1rem solid;    
     }
 
     .footer {
